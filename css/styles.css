@@ -1,0 +1,133 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.main-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.main-logo .studio-one{
+    color: #2e2f42;
+}
+
+.main-logo .studio-two{
+    color: #F4F4FD;
+}
+
+.nav-list-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-list-item:hover{
+    color: #404bbf
+}
+
+.nav-list-item:focus{
+    color: #404bbf
+}
+
+.nav-foot-address{
+    font-style: normal
+}
+
+.adress-element{
+    font: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.adress-element:hover{
+    color: #404bbf;
+}
+
+.adress-element:focus{
+    color: #404bbf;
+}
+
+.section-one{
+    background-color: #2e2f42;
+}
+
+.main-header{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.section-button{
+    font-family: Roboto, sans-serif;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.section-button:hover{
+    background-color: #404BBF;
+}
+
+.section-button:focus{
+    background-color: #404BBF;
+}
+
+.section-big-header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.section-list-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+}
+
+.section-item-paragraph{
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
+}
+
+.section-three{
+    background-color: #f4f4fd;
+}
+
+.section-list-item{
+    background-color: #ffffff;
+
+}
+
+
+.footer{
+    background-color: #2e2f42;
+}
+
+.footer-paragraph{
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
