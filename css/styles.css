@@ -1,3 +1,5 @@
+/**lesson 2 styles**/
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -12,6 +14,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+
+    /**lesson 3 styles**/
+    margin-right: 76px;
 }
 
 .main-logo .studio-one{
@@ -39,7 +44,7 @@ body {
 }
 
 .nav-foot-address{
-    font-style: normal
+    font-style: normal;
 }
 
 .adress-element{
@@ -131,3 +136,42 @@ body {
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
+
+/**lesson 3 styles**/
+
+img {
+    display: block;
+}
+
+.header-style {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-division-style {
+    display: flex;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.header-nav-style{
+    display: flex;
+    align-items: center;
+}
+
+.menu-list-style{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list-style .li:last-child{
+    margin-right: 0;
+}
+
+.menu-element{
+    padding: 24px 0 24px;
+}
+
