@@ -280,7 +280,7 @@ body {
     row-gap: 48px;
 }
 
-.section-four .list-item-style{
+.section-four-item-style{
     
     /**lesson 3 styles**/
     width: calc((100% - 48px) / 3);
