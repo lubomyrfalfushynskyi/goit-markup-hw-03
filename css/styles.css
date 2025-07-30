@@ -1,4 +1,11 @@
 /**lesson 2 styles**/
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
 
 body {
     font-family: Roboto, sans-serif;
@@ -49,8 +56,7 @@ body {
 .menu-element{
 
     /**lesson 3 styles**/
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .main-logo {
@@ -140,7 +146,7 @@ body {
 
     /**lesson 3 styles**/
     display: block;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     border:none;
     background-color: #4d5ae5;
@@ -207,7 +213,7 @@ body {
 .list-item-style{
         
     /** lesson 3 style**/
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-list-header{
@@ -250,8 +256,9 @@ body {
 }
 
 .section-three-division{
-    padding-top: 32;
-    padding-bottom: 32;
+
+    /** lesson 3 style**/
+    padding: 32px 0;
 }
 
 .section-four{
@@ -283,7 +290,7 @@ body {
 
     /**lesson 3 styles**/
     padding: 32px 16px;
-    border: 1px solid;
+    border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
 }
@@ -315,6 +322,6 @@ body {
 img {
     
     /**lesson 3 styles**/
-    display: block;
+    display: block;    
 }
 
