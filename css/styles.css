@@ -86,6 +86,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    /**lesson 3 styles**/
+    padding: 24px 0 24px;
 }
 
 .nav-list-item:hover{
