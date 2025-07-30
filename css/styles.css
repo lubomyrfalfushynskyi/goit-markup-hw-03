@@ -6,6 +6,53 @@ body {
     background-color: #FFFFFF;
 }
 
+.header-style {
+
+    /**lesson 3 styles**/
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-division-style {
+
+    /**lesson 3 styles**/
+    display: flex;
+}
+
+.container{
+
+    /**lesson 3 styles**/
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.header-nav-style{
+
+    /**lesson 3 styles**/
+    display: flex;
+    align-items: center;
+}
+
+.menu-list-style{
+
+    /**lesson 3 styles**/
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list-style .li:last-child{
+
+    /**lesson 3 styles**/
+    margin-right: 0;
+}
+
+.menu-element{
+
+    /**lesson 3 styles**/
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .main-logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -64,6 +111,10 @@ body {
 
 .section-one{
     background-color: #2e2f42;
+
+    /**lesson 3 styles**/
+    padding-top:188px;
+    padding-bottom: 188px;
 }
 
 .main-header{
@@ -72,6 +123,9 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+
+    /**lesson 3 styles**/
+    max-width: 496px;
 }
 
 .section-button{
@@ -83,6 +137,15 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
+    /**lesson 3 styles**/
+    display: block;
+    max-width: 169px;
+    height: 56px;
+    border:none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .section-button:hover{
@@ -93,6 +156,13 @@ body {
     background-color: #404BBF;
 }
 
+.section-two{
+
+    /**lesson 3 styles**/
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-big-header{
     font-size: 36px;
     line-height: 1.11;
@@ -100,6 +170,44 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
+    /**lesson 3 styles**/
+    margin-bottom: 72px;
+}
+
+.visually-hidden{
+
+    /**lesson 3 styles**/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-list-style{
+    
+    /** lesson 3 style**/
+    display:flex;
+    gap: 24px;
+}
+
+.section-list-style.li:last-child{
+    
+    /** lesson 3 style**/
+    margin-right: 0;
+}
+
+.list-item-style{
+        
+    /** lesson 3 style**/
+    flex-basis: calc((100%-72px)/4);
 }
 
 .section-list-header{
@@ -108,6 +216,10 @@ body {
     line-height: 1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
+
+    /** lesson 3 style**/
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .section-item-paragraph{
@@ -115,63 +227,94 @@ body {
     line-height:1.5;
     letter-spacing:0.02em;
     color:#434455;
+
+    /** lesson 3 style**/
+    text-align: center;
 }
 
 .section-three{
     background-color: #f4f4fd;
+
+    /** lesson 3 style**/
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
 
 .section-list-item{
     background-color: #ffffff;
 
+    /** lesson 3 style**/
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
+.section-three-division{
+    padding-top: 32;
+    padding-bottom: 32;
+}
+
+.section-four{
+
+    /**lesson 3 styles**/   
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-four .section-list-style{
+    
+    /**lesson 3 styles**/
+    flex-wrap: wrap;
+}
+
+.section-four .section-list-style{
+   
+    /**lesson 3 styles**/
+    row-gap: 48px;
+}
+
+.section-four .list-item-style{
+    
+    /**lesson 3 styles**/
+    width: calc((100% - 48px) / 3);
+}
+
+.section-four-division{
+
+    /**lesson 3 styles**/
+    padding: 32px 16px;
+    border: 1px solid;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .footer{
     background-color: #2e2f42;
+
+    /**lesson 3 styles**/
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-paragraph{
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+
+    /**lesson 3 styles**/
+    max-width: 264px;
 }
 
-/**lesson 3 styles**/
+.footer .main-logo{
+    
+    /**lesson 3 styles**/
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 img {
+    
+    /**lesson 3 styles**/
     display: block;
-}
-
-.header-style {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.header-division-style {
-    display: flex;
-}
-
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
-}
-
-.header-nav-style{
-    display: flex;
-    align-items: center;
-}
-
-.menu-list-style{
-    display: flex;
-    gap: 40px;
-}
-
-.menu-list-style .li:last-child{
-    margin-right: 0;
-}
-
-.menu-element{
-    padding: 24px 0 24px;
 }
 
