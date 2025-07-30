@@ -213,7 +213,7 @@ body {
 .list-item-style{
         
     /** lesson 3 style**/
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .section-list-header{
