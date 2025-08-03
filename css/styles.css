@@ -5,7 +5,20 @@ a {
 
 ul {
     list-style: none;
-    padding-inline-start: 0;
+    padding: 0;
+
+    /**lesson 3 fix**/
+    margin:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
 }
 
 body {
@@ -57,7 +70,7 @@ body {
 .menu-element{
 
     /**lesson 3 styles**/
-    padding: 24px 0 24px;
+    /**padding: 24px 0 24px;**/
 }
 
 .main-logo {
@@ -68,7 +81,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
 
+.header-nav-style .main-logo{
+   
     /**lesson 3 styles**/
     margin-right: 76px;
 }
@@ -90,6 +106,9 @@ body {
 
     /**lesson 3 styles**/
     padding: 24px 0 24px;
+
+    /**lesson 3 fix**/
+    display: block;
 }
 
 .nav-list-item:hover{
@@ -102,10 +121,13 @@ body {
 
 .nav-foot-address{
     font-style: normal;
+
+    /**lesson 3 fix**/
+    margin-left: auto;
 }
 
 .adress-element{
-    font: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -136,6 +158,11 @@ body {
 
     /**lesson 3 styles**/
     max-width: 496px;
+
+    /**lesson 3 fix**/
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .section-button{
@@ -156,6 +183,11 @@ body {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+
+    /**lesson 3 fix**/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
 
 .section-button:hover{
@@ -229,7 +261,7 @@ body {
 
     /** lesson 3 style**/
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 
 .section-item-paragraph{
@@ -239,6 +271,10 @@ body {
     color:#434455;
 
     /** lesson 3 style**/
+    text-align: left;
+}
+
+.section-three-division .center-style{
     text-align: center;
 }
 
